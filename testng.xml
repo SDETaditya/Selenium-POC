@@ -6,7 +6,9 @@
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
       
-      <class name="testproj.testcases.TC001_LoginTest"/>
+<!--      <class name="testproj.testcases.TC001_LoginTest"/> -->
+      <class name="testproj.testcases.TC002_LoginDataDriven"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

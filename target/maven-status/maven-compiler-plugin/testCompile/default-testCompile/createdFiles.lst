@@ -1,0 +1,10 @@
+testproj\testcases\BaseClass.class
+testproj\testcases\TC001_LoginTest.class
+testproj\utilities\ReadConfigurations.class
+testproj\pageobjects\LoginPage.class
+testproj\utilities\XLUtils.class
+testproj\pageobjects\AddCustomerPage.class
+testproj\utilities\WrtingExcelDemo1.class
+testproj\testcases\TC002_LoginDataDriven.class
+testproj\testcases\TC003_AddCustomerTest.class
+testproj\utilities\Reporting.class

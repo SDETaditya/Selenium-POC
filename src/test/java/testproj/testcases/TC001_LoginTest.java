@@ -1,5 +1,7 @@
 package testproj.testcases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -7,7 +9,7 @@ import testproj.pageobjects.LoginPage;
 
 public class TC001_LoginTest extends BaseClass{
 	@Test
-	public void loginTest() {
+	public void loginTest() throws IOException {
 
 		
 		LoginPage lp=new LoginPage(driver);
@@ -26,7 +28,7 @@ public class TC001_LoginTest extends BaseClass{
 		}
 		else
 		{
-			
+			captureScreen(driver,"loginTest");
 			Assert.assertTrue(false);
 			logger.info("login test failed");
 		}

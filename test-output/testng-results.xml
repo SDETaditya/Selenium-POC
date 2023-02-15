@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T18:51:08 GMT-05:00" name="Default suite" finished-at="2023-02-14T18:51:18 GMT-05:00" duration-ms="9910">
+  <suite started-at="2023-02-15T14:53:41 EST" name="TestProj" finished-at="2023-02-15T14:53:51 EST" duration-ms="9836">
     <groups>
     </groups>
-    <test started-at="2023-02-14T18:51:08 GMT-05:00" name="Default test" finished-at="2023-02-14T18:51:18 GMT-05:00" duration-ms="9910">
+    <test started-at="2023-02-15T14:53:41 EST" name="test" finished-at="2023-02-15T14:53:51 EST" duration-ms="9836">
       <class name="testproj.testcases.TC001_LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testproj.testcases.TC001_LoginTest@31304f14]" started-at="2023-02-14T18:51:08 GMT-05:00" name="setup" finished-at="2023-02-14T18:51:16 GMT-05:00" duration-ms="8102" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testproj.testcases.TC001_LoginTest@51399530]" started-at="2023-02-15T14:53:42 EST" name="setup" finished-at="2023-02-15T14:53:49 EST" duration-ms="7137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:testproj.testcases.TC001_LoginTest@31304f14]" started-at="2023-02-14T18:51:16 GMT-05:00" name="loginTest" finished-at="2023-02-14T18:51:18 GMT-05:00" duration-ms="1482" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:testproj.testcases.TC001_LoginTest@51399530]" started-at="2023-02-15T14:53:49 EST" name="loginTest" finished-at="2023-02-15T14:53:51 EST" duration-ms="1723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testproj.testcases.TC001_LoginTest@31304f14]" started-at="2023-02-14T18:51:18 GMT-05:00" name="tearDown" finished-at="2023-02-14T18:51:18 GMT-05:00" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testproj.testcases.TC001_LoginTest@51399530]" started-at="2023-02-15T14:53:51 EST" name="tearDown" finished-at="2023-02-15T14:53:51 EST" duration-ms="367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testproj.testcases.TC001_LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- test -->
+  </suite> <!-- TestProj -->
 </testng-results>
